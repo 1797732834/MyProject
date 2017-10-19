@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/toutiao1"
+    >
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ruser"
+        android:layout_alignBottom="@+id/ruser"
+        android:layout_alignParentLeft="true"
+        android:text="用户名:" />
+    <EditText
+        android:layout_toRightOf="@id/name1"
+        android:id="@+id/ruser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        />
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rpassword"
+        android:layout_alignBottom="@+id/rpassword"
+        android:layout_alignParentLeft="true"
+        android:text="密    码:" />
+    <EditText
+        android:layout_below="@id/name1"
+        android:layout_toRightOf="@id/name2"
+        android:id="@+id/rpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:password="true"
+        />
+    <Button
+        android:id="@+id/regist"
+        android:layout_below="@id/rpassword"
+        android:text="注册"
+        android:onClick="regist"
+        android:layout_width="match_parent"
+        android:layout_height="80px" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android_day02_drawerlayout/Android_day02_drawerlayout.iml" filepath="$PROJECT_DIR$/Android_day02_drawerlayout/Android_day02_drawerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_day03_navigationviewdemo/Android_day03_navigationviewdemo.iml" filepath="$PROJECT_DIR$/Android_day03_navigationviewdemo/Android_day03_navigationviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyProject.iml" filepath="$PROJECT_DIR$/MyProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeatherReader/WeatherReader.iml" filepath="$PROJECT_DIR$/WeatherReader/WeatherReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_article/android_article.iml" filepath="$PROJECT_DIR$/android_article/android_article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gson1612b/gson1612b.iml" filepath="$PROJECT_DIR$/gson1612b/gson1612b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpurlconnection1612b/httpurlconnection1612b.iml" filepath="$PROJECT_DIR$/httpurlconnection1612b/httpurlconnection1612b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/internews/internews.iml" filepath="$PROJECT_DIR$/internews/internews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leida_test/leida_test.iml" filepath="$PROJECT_DIR$/leida_test/leida_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mainmusic/mainmusic.iml" filepath="$PROJECT_DIR$/mainmusic/mainmusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydrawerlayout/mydrawerlayout.iml" filepath="$PROJECT_DIR$/mydrawerlayout/mydrawerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mynohttp/mynohttp.iml" filepath="$PROJECT_DIR$/mynohttp/mynohttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myslidingmenu/myslidingmenu.iml" filepath="$PROJECT_DIR$/myslidingmenu/myslidingmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingmenudemo/slidingmenudemo.iml" filepath="$PROJECT_DIR$/slidingmenudemo/slidingmenudemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toutiaonews/toutiaonews.iml" filepath="$PROJECT_DIR$/toutiaonews/toutiaonews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toutiaonews(1)/toutiaonews(1).iml" filepath="$PROJECT_DIR$/toutiaonews(1)/toutiaonews(1).iml" />
+    </modules>
+  </component>
+</project>

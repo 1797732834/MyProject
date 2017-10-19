@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 侧滑菜单滑出后与主内容区域之间的连接部分宽度 -->
+    <dimen name="shadow_width">5dp</dimen>
+    <!-- 侧滑菜单滑出后主内容区域剩余部分的宽度 -->
+    <dimen name="slidingMenu_offset">60dp</dimen>
+</resources>

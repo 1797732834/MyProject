@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=" 进 入 头 条 新 闻 "
+        android:background="@mipmap/news"
+        android:textSize="30sp"
+        />
+    <ListView
+        android:id="@+id/find_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="1"
+        android:verticalSpacing="10dp" >
+    </ListView>
+    
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/lunbo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"></android.support.v4.view.ViewPager>
+
+        <GridView
+            android:id="@+id/musicgv1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:verticalSpacing="10dp" >
+        </GridView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/musicgv1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|center_vertical"
+                android:onClick=""
+                android:text="热 门 推 荐"
+                android:textSize="25sp" />
+
+            <GridView
+                android:layout_marginTop="20dp"
+                android:id="@+id/musicgv2"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:numColumns="3"
+                android:verticalSpacing="2dp" 
+                android:horizontalSpacing="2dp"
+                 >
+            </GridView>         
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|center_vertical"
+                android:onClick=""
+                android:text="每 日 为 你 推  荐 ·30首"
+                android:textSize="25sp"/>
+            <GridView 
+                 android:layout_marginTop="20dp"
+                android:id="@+id/musicgv3"
+                android:layout_width="wrap_content"
+                android:layout_height="330dp"
+                android:numColumns="1"
+                android:verticalSpacing="2dp" 
+                android:horizontalSpacing="2dp"
+                ></GridView>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

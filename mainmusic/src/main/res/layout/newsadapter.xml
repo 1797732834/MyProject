@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="189dp"
+        android:layout_height="106dp"
+        android:layout_weight="0.43"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tx_title"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:text="TextView"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="385dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tx_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tx_author"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.23"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="0.43"
+        android:src="@mipmap/ic_launcher"
+        android:weightSum="1" />
+
+
+</LinearLayout>

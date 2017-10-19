@@ -1,0 +1,1 @@
+include ':app', ':mainmusic', ':httpurlconnection1612b', ':gson1612b', ':toutiaonews', ':toutiaonews(1)', ':leida_test', ':mydrawerlayout', ':slidingmenudemo', ':internews', 'myslidingmenu', ':myslidingmenu', ':library', ':mynohttp', ':Android_day02_drawerlayout', ':Android_day03_navigationviewdemo', ':android_article', ':WeatherReader', ':test'

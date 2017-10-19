@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/toutiao2">
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/luser"
+        android:layout_alignBottom="@+id/luser"
+        android:layout_alignParentLeft="true"
+        android:text="用户名:" />
+    <EditText
+        android:layout_toRightOf="@id/name1"
+        android:id="@+id/luser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        />
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lpassword"
+        android:layout_alignBottom="@+id/lpassword"
+        android:layout_alignParentLeft="true"
+        android:text="密    码:" />
+    <EditText
+        android:layout_below="@id/name1"
+        android:layout_toRightOf="@id/name2"
+        android:id="@+id/lpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:password="true"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_below="@id/lpassword"
+        android:text="登陆"
+        android:onClick="login"
+        android:layout_width="match_parent"
+        android:layout_height="80px" />
+</RelativeLayout>

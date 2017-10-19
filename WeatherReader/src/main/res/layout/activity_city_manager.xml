@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/manager_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#73C4D4"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/manager_tv"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="城市管理"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/manager_add_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text=" + "
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/manager_ll"
+        android:id="@+id/city_manager_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

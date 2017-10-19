@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Android_day02_drawerlayout" />
+            <option value="$PROJECT_DIR$/Android_day03_navigationviewdemo" />
+            <option value="$PROJECT_DIR$/WeatherReader" />
+            <option value="$PROJECT_DIR$/android_article" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/gson1612b" />
+            <option value="$PROJECT_DIR$/httpurlconnection1612b" />
+            <option value="$PROJECT_DIR$/internews" />
+            <option value="$PROJECT_DIR$/leida_test" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/mainmusic" />
+            <option value="$PROJECT_DIR$/mydrawerlayout" />
+            <option value="$PROJECT_DIR$/mynohttp" />
+            <option value="$PROJECT_DIR$/myslidingmenu" />
+            <option value="$PROJECT_DIR$/slidingmenudemo" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/toutiaonews" />
+            <option value="$PROJECT_DIR$/toutiaonews(1)" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="我"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:background="#FFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="#73C4D4"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/user_img"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/user_default"/>
+            <TextView
+                android:id="@+id/menu_reg_login_tv"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册/登录"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="#F0F0F0"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView2"
+            android:textColor="#828282"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="设置" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/menu_cityManager"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:layout_height="50dp"
+            android:text="城市管理" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/menu_notification"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:layout_height="50dp"
+            android:text="通知栏提醒" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:layout_height="50dp"
+            android:text="背景音效" />
+            <Switch
+                android:id="@+id/menu_bc_music"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/menu_cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="退出当前账号"
+        android:textSize="25sp"
+        android:visibility="gone"
+        android:background="#ff0033"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
